@@ -24,7 +24,7 @@ CREATE TABLE `Ventas`.`Cliente` (`identificacion` VARCHAR(15) NOT NULL , `nombre
 ### Registro de datos en tabla Cliente
 
 #### Codigo SQL de inserción de un registro a la tabla Cliente
-INSERT INTO `Cliente` (`identificacion`, `nombre`, `apellidos`, `direccion`, `telefono`, `ciudad_nac`, `fecha_nac`) VALUES ('100', 'Nestor Jesus', 'Paez Sarmiento', 'Cra. 105 No. 25-78', '3125895623', 'Villanueva', '2003-09-09');
+`` INSERT INTO `Cliente` (`identificacion`, `nombre`, `apellidos`, `direccion`, `telefono`, `ciudad_nac`, `fecha_nac`) VALUES ('100', 'Nestor Jesus', 'Paez Sarmiento', 'Cra. 105 No. 25-78', '3125895623', 'Villanueva', '2003-09-09'); ``
 
 #### Primer registro en phpMyAdmin
 ![Registro de datos](registroDatos.png "Registro de datos")
